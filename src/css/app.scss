@@ -1,0 +1,36 @@
+/* App.scss */
+
+/* Utilisation de variables */
+$primary-color: #3498db;
+$secondary-color: #2ecc71;
+
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+/* Styles pour l'en-tête */
+.App-header {
+  background-color: $primary-color;
+  color: white;
+  padding: 20px;
+  border-bottom: 2px solid darken($primary-color, 10%);
+
+  p {
+    font-size: 1.5em;
+  }
+}
+
+/* Styles pour un bouton */
+.button {
+  background-color: $secondary-color;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: darken($secondary-color, 10%);
+  }
+}

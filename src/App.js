@@ -1,12 +1,13 @@
+import Contact from './components/contact/Contact';
+import Home from './components/home/Home';
 import './css/app.scss';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        Bonjour tout le monde
-      </header>
-    </div>
+    <>
+      <Home />
+      <Contact />
+    </>
   );
 }
 

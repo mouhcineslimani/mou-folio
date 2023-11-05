@@ -1,0 +1,8 @@
+@mixin px-to-percent($px, $container) {
+    @if type-of($px) == "number" and type-of($container) == "number" {
+        $percentage: ($px / $container) * 100%;
+        width: $percentage;
+    } @else {
+        @warn "Both arguments must be numbers. Usage: px-to-percent(100, 800);";
+    }
+}

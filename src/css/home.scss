@@ -1,0 +1,31 @@
+@import "./mixens/toPercente.scss";
+
+.home-part {
+    background-color: $primary-color;
+    width: 100%;
+    color: white;
+    height: 100vh;
+}
+
+.home-header {
+    display: flex;
+    .home-left-part {
+        @include px-to-percent(1200, 1000);
+        .title {
+            padding: 30px 60px;
+        }
+    }
+    .home-right-part {
+        @include px-to-percent(659.8, 1000);
+        background: $secondary-color;
+        height: 100vh;
+        .contact-me {
+            display: flex;
+            justify-content: end;
+            align-items: center;
+            padding: 30px 60px;
+            gap: 6px;
+            color: black;
+        }
+    }
+}

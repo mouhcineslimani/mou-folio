@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/mou-folio/static/css/main.48bf4c46.css",
+    "main.js": "/mou-folio/static/js/main.d54628cd.js",
+    "index.html": "/mou-folio/index.html",
+    "main.48bf4c46.css.map": "/mou-folio/static/css/main.48bf4c46.css.map",
+    "main.d54628cd.js.map": "/mou-folio/static/js/main.d54628cd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.48bf4c46.css",
+    "static/js/main.d54628cd.js"
+  ]
+}

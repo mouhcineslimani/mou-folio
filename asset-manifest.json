@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/mou-folio/static/css/main.4c7c334c.css",
-    "main.js": "/mou-folio/static/js/main.ac6bc092.js",
+    "main.css": "/mou-folio/static/css/main.8d09d53e.css",
+    "main.js": "/mou-folio/static/js/main.5a345af5.js",
     "index.html": "/mou-folio/index.html",
-    "main.4c7c334c.css.map": "/mou-folio/static/css/main.4c7c334c.css.map",
-    "main.ac6bc092.js.map": "/mou-folio/static/js/main.ac6bc092.js.map"
+    "main.8d09d53e.css.map": "/mou-folio/static/css/main.8d09d53e.css.map",
+    "main.5a345af5.js.map": "/mou-folio/static/js/main.5a345af5.js.map"
   },
   "entrypoints": [
-    "static/css/main.4c7c334c.css",
-    "static/js/main.ac6bc092.js"
+    "static/css/main.8d09d53e.css",
+    "static/js/main.5a345af5.js"
   ]
 }
